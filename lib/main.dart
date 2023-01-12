@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:navigation_bar_flutter/screens/home_screen.dart';
+import 'package:navigation_bar_flutter/widgets/google_screen.dart';
+import 'package:navigation_bar_flutter/widgets/curved_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,7 +27,9 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const HomeScreen(),
+      //home: const HomeScreen(),
+      //home: const CurvedScreen
+      home: const GoogleScreen(),
     );
   }
 }
