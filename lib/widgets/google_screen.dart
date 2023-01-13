@@ -21,9 +21,9 @@ class _GoogleScreenState extends State<GoogleScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       bottomNavigationBar: GNav(
-        backgroundColor: Colors.deepPurple,
-        color: Colors.deepPurple.shade200,
-        activeColor: Colors.deepPurple,
+        backgroundColor: const Color(0xFF093631),
+        color: Colors.white,
+        activeColor: const Color(0xFF093631),
         tabBackgroundColor: Colors.white,
         tabBorderRadius: 100,
         tabActiveBorder: Border.all(color: Colors.white),

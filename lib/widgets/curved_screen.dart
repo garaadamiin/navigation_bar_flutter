@@ -12,9 +12,9 @@ class _CurvedScreenState extends State<CurvedScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.deepPurple,
+      backgroundColor: const Color(0xFF093631),
       bottomNavigationBar: CurvedNavigationBar(
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: const Color(0xFF093631),
         color: Colors.deepPurple.shade200,
         animationDuration: const Duration(milliseconds: 300),
         items: const [
